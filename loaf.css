@@ -61,6 +61,11 @@
   grid-column: auto/span 1;
 }
 
+nav {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 .nav-container {
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
@@ -164,13 +169,13 @@ html {
 
 @media screen and (max-width: 800px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
-  html {
+  .container {
     padding: 5%;
   }
 }
 @media screen and (min-width: 800px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
-  html {
+  .container {
     padding-left: 15%;
     padding-right: 15%;
   }
