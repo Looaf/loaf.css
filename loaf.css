@@ -64,6 +64,7 @@
 nav {
   padding-right: 5%;
   padding-left: 5%;
+  padding-top: 1%;
 }
 
 .nav-container {
@@ -169,13 +170,13 @@ html {
 
 @media screen and (max-width: 800px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
-  .container {
+  .main {
     padding: 5%;
   }
 }
 @media screen and (min-width: 800px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
-  .container {
+  .main {
     padding-left: 15%;
     padding-right: 15%;
   }
