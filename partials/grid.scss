@@ -1,0 +1,52 @@
+// GRID SYSTEM
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.row > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    border: 5px solid #000;
+    font-size: 30px;
+    
+}
+
+.s12 {
+    grid-column: auto / span 12;
+}
+.s11 {
+    grid-column: auto / span 11;
+}
+.s10 {
+    grid-column: auto / span 10;
+}
+.s9 {
+    grid-column: auto / span 9;
+}
+.s8 {
+    grid-column: auto / span 8;
+}
+.s7 {
+    grid-column: auto / span 7;
+}
+.s6 {
+    grid-column: auto / span 6;
+}
+.s5 {
+    grid-column: auto / span 5;
+}
+.s4 {
+    grid-column: auto / span 4;
+}
+.s3 {
+    grid-column: auto / span 3;
+}
+.s2 {
+    grid-column: auto / span 2;
+}
+.s1 {
+    grid-column: auto / span 1;
+}

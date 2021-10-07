@@ -1,0 +1,33 @@
+// NAV
+.nav-container{
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    min-height: 100px;
+    margin-bottom: 25px;
+    // float: left;
+    ul {
+        list-style-type: none; // remove bullets
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+    
+    li {
+        font-weight: 600;
+        float: left;
+    }
+    
+    li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        border-bottom: -5px black;
+    }
+}
